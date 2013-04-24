@@ -1,0 +1,15 @@
+# Goal
+int32[] box_ids
+geometry_msgs/PoseStamped search_pose # pose to fetch box(es)
+geometry_msgs/PoseStamped target_pose # pose to place box(es)
+
+---
+
+# Result
+raw_vfk_dummy/Delivery[] deliveries # exact poses where each box is placed
+
+---
+
+# Feedback
+int32 current_box_id
+float32 percent_complete

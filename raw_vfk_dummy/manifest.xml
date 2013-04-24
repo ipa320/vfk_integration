@@ -1,0 +1,18 @@
+<package>
+  <description brief="raw_vfk_dummy">
+
+     Dummy ROS node to interface rob@work (raw) for virtual fort knox (vfk).
+
+  </description>
+  <author>Florian Weisshard</author>
+  <license>LGPL</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/raw_vfk_dummy</url>
+
+  <depend package="rospy"/>
+  <depend package="tf"/>
+  <depend package="actionlib"/>
+  <depend package="actionlib_msgs"/>
+  <depend package="geometry_msgs"/>
+
+</package>
