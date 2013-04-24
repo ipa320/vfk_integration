@@ -1,12 +1,12 @@
 # Goal
 int32[] box_ids
-geometry_msgs/PoseStamped search_pose # pose to fetch box(es)
-geometry_msgs/PoseStamped target_pose # pose to place box(es)
+geometry_msgs/PoseStamped search_pose # pose where the boxes are expected so that the robot can search for them
+geometry_msgs/PoseStamped target_pose # pose where the boxes should be placed
 
 ---
 
 # Result
-raw_vfk_dummy/Delivery[] deliveries # exact poses where each box is placed
+raw_vfk_dummy/Delivery[] deliveries # exact poses where each box is placed (depending on free space near target_pose)
 
 ---
 
